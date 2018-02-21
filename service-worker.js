@@ -5,19 +5,21 @@
 
 
 'use strict';
-importScripts('./lib/main.js');
+importScripts('./build/sw-toolbox.js');
 
 self.toolbox.options.cache = {
-  name: 'soudobairro-cache'
+  name: 'ionic-cache'
 };
 
 // pre-cache our key assets
 self.toolbox.precache(
   [
-    './lib/main.js',
-    './css/style.css',
+    './build/main.js',
+    './build/vendor.js',
+    './build/main.css',
+    './build/polyfills.js',
     'index.html',
-    './lib/manifest.json'
+    'manifest.json'
   ]
 );
 
