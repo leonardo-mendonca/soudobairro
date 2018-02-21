@@ -1,0 +1,13 @@
+{
+  "name": "SouDoBairro",
+  "short_name": "SouDoBairro",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "icons": [{
+    "src": "./lib/img/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#fff"
+}

@@ -1,2 +1,5 @@
 /**/
 
+ons-toolbar, .tabbar {
+  background-color: brown !important;
+}
