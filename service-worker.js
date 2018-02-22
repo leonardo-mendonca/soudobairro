@@ -46,7 +46,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'soudobairro-v1';
+var CACHE_NAME = 'soudobairro-v1.1';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
