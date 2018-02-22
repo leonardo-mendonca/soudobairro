@@ -25755,6 +25755,29 @@ page-tutorial p b {
   color: #000000;
 }
 
+page-tutorial .slide-image {
+  margin-bottom: 0px;
+}
+
+page-tutorial #bairro {
+  font-size: 1.8em;
+  font-family: monospace;
+  font-weight: bold;
+  color: #6699ff;
+}
+
+page-tutorial #slogan {
+  font-family: monospace;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+page-tutorial .slide-title {
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 page-welcome .splash-bg {
   position: relative;
   background: url("../assets/img/splashbg.png") no-repeat transparent;

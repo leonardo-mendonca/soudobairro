@@ -14,21 +14,26 @@
 
   "MAP_TITLE": "Mapa",
 
+  "BAIRRO": "SANTA BÁRBARA",
+  "SLOGAN": "Valorize o comércio do seu bairro!!!",
+  "DESLIZE": "Deslize para continuar",
+
+
   "TUTORIAL_SKIP_BUTTON": "Pular",
   "TUTORIAL_CONTINUE_BUTTON": "Continuar",
 
-  "TUTORIAL_SLIDE1_TITLE": "Bem-vindo ao Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "O <b>Ionic Super Starter</b> é um starter para Ionic completo, com diversos componentes e páginas prontas para ser utilizado como guia de melhores práticas.",
+  "TUTORIAL_SLIDE1_TITLE": "Bem-vindo ao bairro Santa Bárbara",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "O <b>SouDoBairro Santa Bárbara</b> é um app exclusivo para este nosso querido bairro, com diversas funcionalidades como Compra, Venda e Troca de Mercadorias, Chamada de Papa-Táxi, Notícias relevantes do bairro, etc...",
 
-  "TUTORIAL_SLIDE2_TITLE": "Como utilizar o Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Combine os tipos de páginas que você quer e remova aquelas que não precisa. No starter existem muitos casos de uso comuns de layouts e páginas como login, cadastro, abas e de tutorial.",
+  "TUTORIAL_SLIDE2_TITLE": "Funcionalidades importantes do SouDoBairro",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Aqui você pode anunciar seu produto, comprar um produto, chamar um papa-táxi local e o mais legal é que somente moradores ou quem estiver no bairro é que poderá ver as publicações locais.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Iniciando o projeto",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Precisa de ajuda? Dê uma olhada no README do Super Starter para um tutorial completo",
+  "TUTORIAL_SLIDE3_TITLE": "Comece a utilizar",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Precisa de ajuda? Dê uma olhada nos vídeos para tirar as suas dúvidas.",
 
-  "TUTORIAL_SLIDE4_TITLE": "Pronto para Usar?",
+  "TUTORIAL_SLIDE4_TITLE": "100% gratuito!!!",
 
-  "WELCOME_INTRO": "O ponto de partida para seu próximo app feito no Ionic",
+  "WELCOME_INTRO": "Valorize o comércio do seu bairro. Faça login ou cadastre-se",
 
   "SETTINGS_TITLE": "Configurações",
   "SETTINGS_OPTION1": "Opção 1",
