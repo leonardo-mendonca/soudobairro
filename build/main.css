@@ -25684,6 +25684,7 @@ ion-navbar.toolbar {
 
 .toolbar-title, .toolbar-title-md, .tab-button, .tab-button ion-icon {
   color: white !important;
+  margin-top: 10px;
 }
 
 .tab-button[aria-selected=true], .tab-button[aria-selected=true] ion-icon {
@@ -25719,4 +25720,15 @@ page-home #slogan {
 
 page-home #entrar, page-home #cadastrar {
   width: 100%;
+  max-width: 500px;
+}
+
+page-home #mapa, page-home ion-card {
+  max-width: 500px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+page-home ion-card {
+  margin-top: 30px;
 }
