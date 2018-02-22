@@ -25694,6 +25694,10 @@ ion-title {
   display: inline-block;
 }
 
+.tabbar {
+  display: none !important;
+}
+
 page-home #logo_bairro {
   max-width: 200px;
 }
@@ -25704,4 +25708,15 @@ page-home #bairro {
   font-family: monospace;
   font-weight: bold;
   color: #6699ff;
+}
+
+page-home #slogan {
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+page-home #entrar, page-home #cadastrar {
+  width: 100%;
 }
