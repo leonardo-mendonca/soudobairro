@@ -25677,3 +25677,15 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+.toolbar-background, .toolbar-background-md, .tabbar, .show-tabbar {
+  background-color: crimson !important;
+}
+
+.toolbar-title, .toolbar-title-md, .tab-button, .tab-button ion-icon {
+  color: white !important;
+}
+
+.tab-button[aria-selected=true], .tab-button[aria-selected=true] ion-icon {
+  color: yellow !important;
+}
