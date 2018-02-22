@@ -1,13 +1,13 @@
 {
-  "name": "SouDoBairro",
-  "short_name": "SouDoBairro",
+  "name": "Ionic",
+  "short_name": "Ionic",
   "start_url": "index.html",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [{
     "src": "assets/imgs/logo.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "background_color": "#dc143c",
-  "theme_color": "#dc143c"
+  "background_color": "#4e8ef7",
+  "theme_color": "#4e8ef7"
 }
