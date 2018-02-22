@@ -100,7 +100,7 @@ var AnunciosPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-anuncios',template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\pages\anuncios\anuncios.html"*/'<ion-header>\n  <ion-navbar>\n    <img src="./assets/imgs/logo.png" width="40px" style="display:inline-block" height="40px"/>\n    <ion-title>\n      SouDoBairro - Anúncios\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\pages\anuncios\anuncios.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], AnunciosPage);
     return AnunciosPage;
 }());
@@ -135,7 +135,7 @@ var TaxiPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-taxi',template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\pages\taxi\taxi.html"*/'<ion-header>\n  <ion-navbar>\n    <img src="./assets/imgs/logo.png" width="40px" style="display:inline-block" height="40px"/>\n    <ion-title>\n      SouDoBairro - Chamar Táxi\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n</ion-content>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\pages\taxi\taxi.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], TaxiPage);
     return TaxiPage;
 }());
@@ -162,17 +162,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var HomePage = (function () {
-    function HomePage(navCtrl) {
+    function HomePage(navCtrl, alertCtrl) {
         this.navCtrl = navCtrl;
+        this.alertCtrl = alertCtrl;
+        this.title = "SouDoBairro - Home";
+        this.bairro = "SANTA BÁRBARA";
+        this.slogan = "Valorize o comércio do seu bairro!!!";
+        this.clickMessage = '';
     }
+    HomePage.prototype.onClickMe = function () {
+        var alert = this.alertCtrl.create({
+            title: 'Login',
+            subTitle: 'Acesse seu perfil',
+            buttons: ['OK']
+        });
+        alert.present();
+    };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <img src="./assets/imgs/logo.png" width="40px" style="display:inline-block" height="40px"/>\n    <ion-title>SouDoBairro - Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div style="text-align: center;"><img src="./assets/imgs/logo_bairro.png" id="logo_bairro"/></div>\n  <div id="bairro">SANTA BÁRBARA</div>\n  <div id="slogan">Valorize o comércio do seu bairro!!!</div>\n\n  <ion-card>\n    <img src="./assets/imgs/santabarbara.gif" id="mapa"/>\n  </ion-card>\n\n  <div style="text-align: center;">\n    <button ion-button large icon-start id="entrar">\n      <ion-icon name=\'logo-facebook\' is-active="false"></ion-icon>\n      Entrar com Facebook\n    </button>\n  </div>\n  <div style="text-align: center;"><button ion-button outline large id="cadastrar">Quero me Cadastrar</button></div>\n\n</ion-content>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <img src="./assets/imgs/logo.png" width="40px" style="display:inline-block" height="40px"/>\n    <ion-title>{{title}}</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div style="text-align: center;"><img src="./assets/imgs/logo_bairro.png" id="logo_bairro"/></div>\n  <div id="bairro">{{bairro}}</div>\n  <div id="slogan">{{slogan}}</div>\n\n  <ion-card>\n    <img src="./assets/imgs/santabarbara.gif" id="mapa"/>\n  </ion-card>\n\n  <div style="text-align: center;">\n    <button ion-button large icon-start id="entrar" (click)="onClickMe()">\n      <ion-icon name=\'checkmark-circle-outline\' is-active="false"></ion-icon>\n      Já tenho uma conta\n    </button>\n  </div>\n  <div style="text-align: center;">\n    <button ion-button outline large id="cadastrar">Quero me Cadastrar</button>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _b || Object])
     ], HomePage);
     return HomePage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -238,11 +253,11 @@ var AppModule = (function () {
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: []
                 })
             ],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
             entryComponents: [
                 __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
                 __WEBPACK_IMPORTED_MODULE_4__pages_anuncios_anuncios__["a" /* AnunciosPage */],
@@ -253,7 +268,7 @@ var AppModule = (function () {
             providers: [
                 __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__["a" /* StatusBar */],
                 __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__["a" /* SplashScreen */],
-                { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
+                { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
             ]
         })
     ], AppModule);
@@ -301,7 +316,7 @@ var MyApp = (function () {
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
 }());
