@@ -25689,3 +25689,7 @@ ion-navbar.toolbar {
 .tab-button[aria-selected=true], .tab-button[aria-selected=true] ion-icon {
   color: yellow !important;
 }
+
+ion-title {
+  display: inline-block;
+}
