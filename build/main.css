@@ -25693,3 +25693,15 @@ ion-navbar.toolbar {
 ion-title {
   display: inline-block;
 }
+
+page-home #logo_bairro {
+  max-width: 200px;
+}
+
+page-home #bairro {
+  text-align: center;
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bold;
+  color: #6699ff;
+}

@@ -98,7 +98,7 @@ var AnunciosPage = (function () {
     }
     AnunciosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-anuncios',template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\pages\anuncios\anuncios.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      SouDoBairro - Anúncios\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\pages\anuncios\anuncios.html"*/
+            selector: 'page-anuncios',template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\pages\anuncios\anuncios.html"*/'<ion-header>\n  <ion-navbar>\n    <img src="./assets/imgs/logo.png" width="40px" style="display:inline-block" height="40px"/>\n    <ion-title>\n      SouDoBairro - Anúncios\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\pages\anuncios\anuncios.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], AnunciosPage);
@@ -133,7 +133,7 @@ var TaxiPage = (function () {
     }
     TaxiPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-taxi',template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\pages\taxi\taxi.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      SouDoBairro - Chamar Táxi\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  \n</ion-content>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\pages\taxi\taxi.html"*/
+            selector: 'page-taxi',template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\pages\taxi\taxi.html"*/'<ion-header>\n  <ion-navbar>\n    <img src="./assets/imgs/logo.png" width="40px" style="display:inline-block" height="40px"/>\n    <ion-title>\n      SouDoBairro - Chamar Táxi\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n</ion-content>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\pages\taxi\taxi.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], TaxiPage);
@@ -168,7 +168,7 @@ var HomePage = (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <img src="./assets/imgs/logo.png" width="40px" style="display:inline-block" height="40px"/>\n    <ion-title>SouDoBairro - Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\IONIC\apps\sou_do_bairro\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <img src="./assets/imgs/logo.png" width="40px" style="display:inline-block" height="40px"/>\n    <ion-title>SouDoBairro - Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div style="text-align: center;"><img src="./assets/imgs/logo_bairro.png" id="logo_bairro"/></div>\n  <div id="bairro">SANTA BÁRBARA</div>\n\n</ion-content>\n'/*ion-inline-end:"C:\IONIC\apps\sou_do_bairro\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
