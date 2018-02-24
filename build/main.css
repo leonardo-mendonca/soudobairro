@@ -25694,7 +25694,7 @@ page-login .slide-title {
 page-login .slide-image {
   max-height: 40%;
   max-width: 60%;
-  margin: 36px 0;
+  margin: 60px 0;
 }
 
 page-login .slide-image {
@@ -25714,12 +25714,64 @@ page-login #slogan {
   font-weight: bold;
 }
 
-page-login .slide-title {
+page-login .slide-title, page-login .slide-descricao, page-login .comecar {
   max-width: 260px;
   margin-left: auto;
   margin-right: auto;
 }
 
+page-login .ultima {
+  max-width: 20% !important;
+}
+
 page-login .scroll-content {
   padding-bottom: 0 !important;
+}
+
+page-login input {
+  padding: 12px !important;
+  font-size: 1.2em !important;
+  background-color: beige !important;
+}
+
+page-register .item1 {
+  text-align: center;
+}
+
+page-register .slide-image {
+  max-height: 40%;
+  max-width: 60%;
+  margin: 60px 0;
+}
+
+page-register .slide-image {
+  margin-bottom: 0px;
+}
+
+page-register #bairro {
+  font-size: 1.8em;
+  font-family: monospace;
+  font-weight: bold;
+  color: #6699ff;
+}
+
+page-register .slide-title, page-register .slide-descricao, page-register .comecar {
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+page-register .slide-title {
+  margin-top: 2.8rem;
+  font-size: 1.5em;
+}
+
+page-register .scroll-content {
+  padding-bottom: 0 !important;
+}
+
+page-register input {
+  padding: 12px !important;
+  font-size: 1.2em !important;
+  background-color: beige !important;
 }
