@@ -27972,13 +27972,25 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+.subtitle {
+  font-size: 0.7em;
+}
+
+page-anuncios .social-cards ion-col {
+  padding: 0;
+}
+
+page-anuncios ion-content {
+  background-color: #b8bdc7;
+}
+
 page-home .toolbar-background {
   background: transparent;
   border-color: transparent;
 }
 
 page-home .slide-zoom {
-  height: 100vh;
+  height: 95vh;
 }
 
 page-home .slide-title {
